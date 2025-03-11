@@ -1,3 +1,10 @@
+/**
+ * hàm kiểm tra kí tự của password
+ * @param {*} password giá trị của người dùng nhập vào cần kiểm tra
+ * @returns trả về giá trị true hoặc false 
+ * Auth  ; PTHung (11/3/2025)
+ */
+
 let strongPassword = (password) => {
     if (password.length < 8) {
         return false;

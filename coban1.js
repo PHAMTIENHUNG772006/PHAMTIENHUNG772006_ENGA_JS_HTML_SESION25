@@ -1,5 +1,12 @@
 let arrNumber = [2,4,8,1,7,9];
 
+
+/**
+ * hàm tìm giá trị nhỏ nhất trong mảng giá trị
+ * @param {*} arr mảng giá trị được kiểm tra
+ * @returns trả về giá trị nhỏ nhất trong mảng
+ * giá trị thứ nhất 
+ */
 let findMinNumber = (arr) =>{
 
 let min = arr[0];

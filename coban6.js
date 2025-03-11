@@ -1,3 +1,9 @@
+/**
+ * hàm kiểm tra chuỗi đối xứng
+ * @param {*} string chuỗi dối xứng được kiểm tra
+ * @returns trả về giá trị true hoặc false của chuỗi
+ * giá trị thứ nhất 
+ */
 let isPalindrome = (string) =>{
     let arrString = string.split("");
     let reverArr = arrString.reverse();

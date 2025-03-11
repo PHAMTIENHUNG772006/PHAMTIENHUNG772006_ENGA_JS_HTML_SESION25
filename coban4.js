@@ -1,3 +1,9 @@
+/**
+ * hàm kiểm tra số nguyên tố
+ * @param {*} num Số do người dùng nhập vào kiểm tra
+ * @returns trả về những số là số ngto
+ * Auth  ; PTHung (11/3/2025)
+ */
 let isPrimeNumber = (num) => {
   if (isNaN(num) || num < 2) {
     console.log(` Dữ liệu không hợp lệ`);
