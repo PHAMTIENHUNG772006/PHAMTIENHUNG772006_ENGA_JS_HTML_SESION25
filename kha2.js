@@ -20,4 +20,3 @@ if (strongPassword(password)) {
 } else {
     console.log("false");
 }
-console.log(`😎`);
